@@ -95,8 +95,8 @@ Win11 LTSC: 暂无公共资源，可以从B站或者一些论坛找资源下载
 1. 帧数
 **虚拟机**注册表打开`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations`
 新建DWORD（32位）值，命名为`DWMFRAMEINTERVAL`
-选择十六进制，输入8，连接为120fps左右
-选择十进制，输入15，连接为60fps左右
+选择十进制，输入8，连接为120fps左右
+选择十六进制，输入15，连接为60fps左右
 ![image.png|518](https://cwl-img.oss-cn-beijing.aliyuncs.com/202409091421086.png)![image.png|518](https://cwl-img.oss-cn-beijing.aliyuncs.com/202409091422970.png)
 重启虚拟机生效
 测试帧数网址：https://testufo.com/
