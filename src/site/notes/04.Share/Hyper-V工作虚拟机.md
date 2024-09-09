@@ -109,7 +109,8 @@ Win11 LTSC: 暂无公共资源，可以从B站或者一些论坛找资源下载
 
 3. 音质
 虚拟机会有爆音问题，以下设置解决
-**虚拟机**win+r输入`gpedit.msc`，定位到管理模板->Windows组件->远程桌面服务->远程会话主机->设备和资源重定向
+**虚拟机**win+r输入`gpedit.msc`，定位到管理模板->Windows组件->远程桌面服务->远程会话主机->设备和资源重定向 
+设置为高
 ![image.png|518](https://cwl-img.oss-cn-beijing.aliyuncs.com/202409091430707.png)
 用记事本（或者其他编辑工具）打开上文中保存的rdp文件，在最后加上一行`audioqualitymode:i:2`
 ![image.png|518](https://cwl-img.oss-cn-beijing.aliyuncs.com/202409091431092.png)
