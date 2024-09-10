@@ -74,6 +74,8 @@ Win11 LTSC: 暂无公共资源，可以从B站或者一些论坛找资源下载
 **进入虚拟机**的控制面板->网络和Internet->网络和共享中心->（左侧）更改适配器设置，找到新增加的网络适配器
 按照同样步骤设置IP地址，设置为`192.168.10.2`，默认网关地址设置为宿主机设置的地址（一般情况下为Microsoft Hyper-V Network Adapter xxx）
 ![image.png|518](https://cwl-img.oss-cn-beijing.aliyuncs.com/202409091105172.png)
+点击高级，设置自动跃点数为1000
+![image.png|518](https://cwl-img.oss-cn-beijing.aliyuncs.com/202409101026795.png)
 以上设置完成后，虚拟机的IP地址被固定为`192.168.10.2`，并且可以通过`192.168.10.1`访问宿主机网络（需要注意Windows防火墙是否放行）
 
 ## 使用远程桌面连接
